@@ -22,7 +22,7 @@ app.get('/', (req, resp)=>{
     resp.status(200)
 
     //send the response
-    resp.send(`<h1>The time is now ${new Date()}</h1><img src="/static/Test.jpg">`)
+    resp.send(`<h1>The time is now ${new Date()}</h1><img src="/static/Test.jpg"><img src="/static/bananachan4.png">`)
 })
 
 //Serve static resource
